@@ -1,0 +1,25 @@
+create table if not exists weather (
+    api_datetime  timestamp,
+    temp_f  float,
+    dew_point_f  float,
+    feels_like_f  float,
+    temp_c  float,
+    dew_point_c  float,
+    feels_like_c  float,
+    wind_speed_mph  float,
+    wind_gust_mph  float,
+    max_daily_gust_mph  float,
+    wind_speed_kt  float,
+    wind_gust_kt  float,
+    max_daily_gust_kt  float,
+    hourly_rain_in  float,
+    daily_rain_in  float,
+    hourly_rain_cm  float,
+    daily_rain_cm  float,
+    wind_dir  float,
+    wind_dir_avg10m  float,
+    humidity  float,
+    barometric_pressure_in  float,
+    barometric_pressure_mb  float
+);
+
