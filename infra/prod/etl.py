@@ -114,5 +114,5 @@ def get_data():
 
 if __name__ == '__main__':
     scheduler = BlockingScheduler()
-    scheduler.add_job(get_data, 'cron', minute='*', hour='*', day='*', year='*', month='*')
+    scheduler.add_job(get_data, 'cron', minute='*/5', hour='*', day='*', year='*', month='*')
     scheduler.start()

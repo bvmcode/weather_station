@@ -1,6 +1,6 @@
 # Ambient Weather Station Data Collection
 
-This repo builds a container and creates the AWS infrastructure for persisting Ambient weather station data every 2 minutes.
+This repo builds a container and creates the AWS infrastructure for persisting Ambient weather station data every 5 minutes.
 This builds
 
 * ECR image repository with our image
